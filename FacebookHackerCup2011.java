@@ -12,6 +12,8 @@ public class FacebookHackerCup2011 {
             br = new BufferedReader(new FileReader(args[0]));
             String line = "";
             while((line = br.readLine()) != null){
+            	
+            	//Find the double square count of each number read
                 doubleSquareCount(Integer.parseInt(line.trim()));
             }
         }catch(Exception e){
@@ -30,7 +32,7 @@ public class FacebookHackerCup2011 {
     private static void doubleSquareCount(int num){
 
         //Mathematically...
-		//x2+y2 = num2;
+        //x2+y2 = num2;
         //x2 = num2 - y2
         //x = SqRt (num2 - y2)
 
