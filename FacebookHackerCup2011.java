@@ -15,7 +15,7 @@ public class FacebookHackerCup2011 {
                 doubleSquareCount(Integer.parseInt(line.trim()));
             }
         }catch(Exception e){
-            throw new RuntimeException("Problem reading while file: "+e.getCause());
+            throw new RuntimeException("Problem reading file: "+e.getCause());
         }finally{
             try{
                 br.close();
