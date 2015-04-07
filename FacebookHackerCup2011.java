@@ -58,9 +58,9 @@ public class FacebookHackerCup2011 {
 
     private static boolean isPerfectSquare(int x){
 
-        double sq = Math.sqrt(x);
-        int sqInt = (int) sq;
+        double sqRootOfx = Math.sqrt(x);
+        int y = (int) sqRootOfx;
 
-        return ((sqInt * sqInt) == x);
+        return ((y * y) == x);
     }
 }
